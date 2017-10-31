@@ -6,13 +6,13 @@
 
 Here is the basic tutorial how to do crud in mysqli and pdo.   
 
-* first create a database name crud.
+* first create a database name company.
 ~~~sql
-CREATE DATABASE crud;
+CREATE DATABASE company;
 ~~~
-* select crud database. 
+* select company database. 
 ~~~sql 
-USE crud;
+USE company;
 ~~~
 
 * Create a people table with name and email field
@@ -32,7 +32,7 @@ CREATE TABLE people (
 
 ~~~php
 $host = 'localhost';
-$dbname = 'crud';
+$dbname = 'company';
 $user = 'root';
 $password = '';
 
@@ -81,7 +81,7 @@ CRUD using PDO actully best practice for php crud. This is because PDO is databa
 $server = 'localhost';
 $user = 'root';
 $password = '';
-$dbname = 'crud';
+$dbname = 'company';
 $options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_PERSISTENT => false,
